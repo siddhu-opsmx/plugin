@@ -18,6 +18,7 @@ export function RandomWaitStageExecutionDetails(props: IExecutionDetailsSectionP
     <ExecutionDetailsSection name={props.name} current={props.current}>
       <div>
         <p>Waited {props.stage.outputs.timeToWait} second(s)</p>
+        <p>Custom text...</p>
       </div>
     </ExecutionDetailsSection>
   );

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import {
   ExecutionDetailsSection,
   ExecutionDetailsTasks,
@@ -16,6 +16,7 @@ import {
 } from '@spinnaker/core';
 
 import './RandomWaitStage.less';
+import { reactViewsBuilder } from '@uirouter/react';
 
 /*
   IStageConfigProps defines properties passed to all Spinnaker Stages.
@@ -32,12 +33,26 @@ export function RandomWaitStageConfig(props: IStageConfigProps) {
         validate={validate}
         onChange={props.updateStage}
         render={(props) => (
-          <FormikFormField
-            name="maxWaitTime"
-            label="Max Time To Wait"
-            help={<HelpField id="armory.randomWaitStage.maxWaitTime" />}
-            input={(props) => <NumberInput {...props} />}
-          />
+          <Fragment>
+            <FormikFormField
+              name="maxWaitTime"
+              label="Max Time To Wait"
+              help={<HelpField id="armory.randomWaitStage.maxWaitTime" />}
+              input={(props) => <NumberInput {...props} />}
+            />
+            <FormikFormField
+              name="maxWaitTime1"
+              label="Custom input 1"
+              help={<HelpField id="armory.randomWaitStage.maxWaitTime" />}
+              input={(props) => <NumberInput {...props} />}
+            />
+            <FormikFormField
+              name="maxWaitTime2"
+              label="Custom input 2"
+              help={<HelpField id="armory.randomWaitStage.maxWaitTime" />}
+              input={(props) => <NumberInput {...props} />}
+            />
+          </Fragment>
         )}
       />
     </div>
