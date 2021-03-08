@@ -1,0 +1,298 @@
+[
+    {
+      "id": "Armory.RandomWaitPlugin",
+      "description": "An example of a PF4J-based plugin that provides a custom pipeline stage.",
+      "provider": "https://github.com/siddhu-opsmx/plugin",
+      "releases": [
+        {
+          "version": "1.0.0",
+          "date": "2020-11-02T21:12:05.398583Z",
+          "requires": "orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "6dc6d2e99c4969f43dee63993028a59b93782356117c1bf16d54c3471f4b725d45a4a92bfbdc6b467c8459bf887c6e9ae586c00e6ec8e9b1a4e56f4baa8cc2df",
+          "state": "",
+          "url": "https://github.com/siddhu-opsmx/plugin/releases/download/1.0.0/initialplugin.zip"
+        }
+      ]
+    },
+    {
+      "id": "Armory.SpringExamplePlugin",
+      "description": "An example of a Spring based plugin that requires no extension points.",
+      "provider": "https://github.com/claymccoy",
+      "releases": [
+        {
+          "version": "1.21.4",
+          "date": "2020-11-13T00:04:33.873Z",
+          "requires": "orca>=8.0.0",
+          "sha512sum": "7b45e008aff019aad658f17aab4a79c4aee65b2e1fb7a1a1b9c4394c482181e30ceca5ea9bb5bff6890c03b19e07a61f9aeba60c9c5045c4c5bdb98cc5240dab",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/springExamplePlugin/releases/download/v1.21.4/springExamplePlugin-v1.21.4.zip"
+        },
+        {
+          "version": "1.10.0",
+          "date": "2020-09-02T22:02:21.692Z",
+          "requires": "orca>=8.0.0",
+          "sha512sum": "b70122282fd45a3cf46a01927bcbfb9eac773022cd0f29d938a8b18aa33c8993695f296bca48e860260e0e7532aa16a9d7f89836a44887661483155db3d9ee61",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/springExamplePlugin/releases/download/v1.10.0/springExamplePlugin-v1.10.0.zip"
+        },
+        {
+          "version": "1.0.9",
+          "date": "2020-05-18T20:07:08.435Z",
+          "requires": "orca>=8.0.0",
+          "sha512sum": "fd19db868c9274bf250543b7993435e9dd37db6602d4af8965e631d76c3a5cb09f4b083cf973d2492b68a353ac4b1751992a21cd279f2c6d9820a4b3f517753a",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/springExamplePlugin/releases/download/v1.0.9/springExamplePlugin-v1.0.9.zip"
+        },
+        {
+          "version": "1.0.8",
+          "date": "2020-04-17T16:32:00.301Z",
+          "requires": "orca>=0.0.0",
+          "sha512sum": "8660f455814107873ed724b300f33fc7cdbbfa96cbeda27a8bf989c6494fae8ba0ba50a9bf7964380d4a0b5a6c79f12903a7d678e3e4aecd29b804fce4b2f3a9",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/springExamplePlugin/releases/download/v1.0.8/springExamplePlugin-v1.0.8.zip"
+        },
+        {
+          "version": "1.0.7",
+          "date": "2020-03-18T00:45:23.024Z",
+          "requires": "orca>=0.0.0",
+          "sha512sum": "80ce6544d08a3ef5551f5827bf2847f70bb46d5d26324ee79886ae9f2007e4c53925ac3cba60eb41459d2460044b857d6e16b9662fb56da27677f30b2075576b",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/springExamplePlugin/releases/download/v1.0.7/springExamplePlugin-v1.0.7.zip"
+        },
+        {
+          "version": "1.0.6",
+          "date": "2020-02-28T19:57:38.696Z",
+          "requires": "orca>=0.0.0",
+          "sha512sum": "e8afff5705b93adb2785edf174fa0cdf1ff9896a2f0ac43e08c0053609d4c035e986adc38c98ef62a13400784b8eab895bc783cacf88f4d6d8e1c085d20e2b7e",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/springExamplePlugin/releases/download/v1.0.6/springExamplePlugin-v1.0.6.zip"
+        },
+        {
+          "version": "1.0.5",
+          "date": "2020-02-26T04:37:26.016Z",
+          "requires": "orca>=0.0.0",
+          "sha512sum": "8d26ddcb3e33fa76770f42724fbe5d4470ea097509cf672469a9ec6e9638fa7e3c2c07c9f709cdebe355750f1a2d8bc4d7811d51d9c0e460982b3d0a3c7860dc",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/springExamplePlugin/releases/download/v1.0.5/springExamplePlugin-v1.0.5.zip"
+        }
+      ]
+    },
+    {
+      "id": "Armory.SillySecretsPlugin",
+      "description": "An example of a plugin that provides an extension to an interface that is not an extension point.",
+      "provider": "https://github.com/claymccoy",
+      "releases": [
+        {
+          "version": "1.0.10",
+          "date": "2020-05-18T20:09:52.572Z",
+          "requires": "clouddriver>=5.59.0,orca>=8.0.0",
+          "sha512sum": "dd93a888ff1036b249c02bc47ad3e55bc91520d1d39419840df6f3791105649d447bfb8f31e7cbfa41a17afb068a17153b4c509bad1cad3deee224c3aa970a5f",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/pf4jPluginWithoutExtensionPoint/releases/download/v1.0.10/pf4jPluginWithoutExtensionPoint-v1.0.10.zip"
+        },
+        {
+          "version": "1.0.9",
+          "date": "2020-05-14T19:55:59.023Z",
+          "requires": "clouddriver>=5.59.0,orca>=8.0.0",
+          "sha512sum": "fce7413b6108b2c7ed405b49b8559531d6130e7759cecc8ca67574caa290d4a9f0f0d1acc693bb2c47ecc97dec34ceff5e5b1b2200c8a105f14043a6cbb92e08",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/pf4jPluginWithoutExtensionPoint/releases/download/v1.0.9/pf4jPluginWithoutExtensionPoint-v1.0.9.zip"
+        },
+        {
+          "version": "1.0.8",
+          "date": "2020-04-17T16:45:27.252Z",
+          "requires": "clouddriver>=0.0.0,clouddriver>=0.0.0,orca>=0.0.0",
+          "sha512sum": "c27b62bd3bfacdb997417d3d61f113dfb2a49aeab866cf031ba6dcf2fece29c4fe98ae60a96efd70e42c2a2fa821edf0c43e51df5ae2559ea7f50028e50c3285",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/pf4jPluginWithoutExtensionPoint/releases/download/v1.0.8/pf4jPluginWithoutExtensionPoint-v1.0.8.zip"
+        },
+        {
+          "version": "1.0.7",
+          "date": "2020-03-03T22:28:50.795Z",
+          "requires": "clouddriver>=0.0.0,orca>=0.0.0",
+          "sha512sum": "f1a02aa456072a3c6d8cb0583dd4f3bf6b136a4c8634c38f910bdd7daef3099e03104c149c2f63a8a3a6974bc0b5100fa0d15c99c0db4bb7f153758ff8177784",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/pf4jPluginWithoutExtensionPoint/releases/download/v1.0.7/pf4jPluginWithoutExtensionPoint-v1.0.7.zip"
+        },
+        {
+          "version": "1.0.6",
+          "date": "2020-02-26T04:47:30.197Z",
+          "requires": "clouddriver>=0.0.0,orca>=0.0.0",
+          "sha512sum": "76e241602c253413ef44d0e04a014ebc47d866443760f443b3de60249e4b3b51936646178a8f0dd2eaa96f0c4a5b48209e74a0dea3bf1ba68eae8dc9d0f455b8",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/pf4jPluginWithoutExtensionPoint/releases/download/v1.0.6/pf4jPluginWithoutExtensionPoint-v1.0.6.zip"
+        },
+        {
+          "version": "1.0.5",
+          "date": "2020-02-26T04:38:43.594Z",
+          "requires": "clouddriver>=0.0.0,orca>=0.0.0",
+          "sha512sum": "ad5b85492906444710d9a0818dd82055f266f45f91be52270063910b0e22e5bf51254b55fea2f586fab35b3bee2e5dd43a51c55ce9ac638cee2971ba96e4c958",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/pf4jPluginWithoutExtensionPoint/releases/download/v1.0.5/pf4jPluginWithoutExtensionPoint-v1.0.5.zip"
+        }
+      ]
+    },
+    {
+      "id": "Armory.KubernetesCRDHandler",
+      "description": "An example Kubernetes CRD handler",
+      "provider": "https://github.com/danielpeach",
+      "releases": [
+        {
+          "version": "1.0.1",
+          "date": "2020-05-27T17:33:48.933Z",
+          "requires": "clouddriver>=0.0.0",
+          "sha512sum": "026b2ad98ec63d5020ef58f5439efa265c39a5a482f7280222484eb46f35a7a6d0109f50851656a477a46dc8cf74f1f39da0557bd4792c9089cdc5d978f93e0c",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/kubernetesCRDHandler/releases/download/v1.0.1/kubernetesCRDHandler-v1.0.1.zip"
+        }
+      ]
+    },
+    {
+      "id": "Armory.FetchArtifactsStage",
+      "description": "An example of fetch artifacts from clouddriver in a custom pipeline stage.",
+      "provider": "https://github.com/spinnaker-plugin-examples",
+      "releases": [
+        {
+          "version": "1.0.10",
+          "date": "2020-09-15T12:27:04.188Z",
+          "requires": "orca>=0.0.0",
+          "sha512sum": "43588b0a468c299311f020d26bb4ee6155325c79850b66012f2ba6fa8d61e454045c16669963a0f51c059be5418f1e71b154e18af1069df5d5b8956feee6c2f9",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/fetchArtifactsStage/releases/download/v1.0.10/fetchArtifactsStage-v1.0.10.zip"
+        },
+        {
+          "version": "1.0.8",
+          "date": "2020-06-22T13:03:42.691Z",
+          "requires": "orca>=0.0.0",
+          "sha512sum": "6c785adc1c6e317f1f90d33e35eadef8ae229af4cda021d1b8864ad50f843cbe65f18ebe61c4465ca558bd2645256b8040e77d400132d224dae0f102091a4e18",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/fetchArtifactsStage/releases/download/v1.0.8/fetchArtifactsStage-v1.0.8.zip"
+        },
+        {
+          "version": "1.0.7",
+          "date": "2020-06-18T18:00:11.092Z",
+          "requires": "orca>=0.0.0",
+          "sha512sum": "a2fa738120bb612bf5fb7b7713116a0c66edb892cd75500e02807c978ec36b7b7d7725abd07d17cd25da88a481da0f79b6683d60bed1d0ca9a90df7bdbe835f2",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/fetchArtifactsStage/releases/download/v1.0.7/fetchArtifactsStage-v1.0.7.zip"
+        },
+        {
+          "version": "1.0.6",
+          "date": "2020-06-17T15:07:02.948Z",
+          "requires": "orca>=0.0.0",
+          "sha512sum": "029229cdff1a84c19c39ce5fbb62cc9284b91eab0862bf6a9aa52a1bf12d5ca000462b213e93d6befb4d707c02dab80837bb84955a509fe0be1c568b9c306b10",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/fetchArtifactsStage/releases/download/v1.0.6/fetchArtifactsStage-v1.0.6.zip"
+        },
+        {
+          "version": "1.0.5",
+          "date": "2020-06-17T14:14:24.335Z",
+          "requires": "orca>=0.0.0",
+          "sha512sum": "27ef2bfe090d943aac047d982415c32d579a456e16cd98818649f7fd06f78b1ee4283b0714be285c884efb767751cb0c4fe1f2d72b63f458fe8b58bcb1b9c792",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/fetchArtifactsStage/releases/download/v1.0.5/fetchArtifactsStage-v1.0.5.zip"
+        },
+        {
+          "version": "1.0.4",
+          "date": "2020-06-17T02:03:58.207Z",
+          "requires": "orca>=8.0.0",
+          "sha512sum": "e2d097a1dc3e7a85254e0bd6c9189f73868dbcc4ac79788ca9ffa95dbcd66df288137f67c8501b7e4c084a72abfb583c5a24f8017184263a6742d0beb62d3d8a",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/fetchArtifactsStage/releases/download/v1.0.4/fetchArtifactsStage-v1.0.4.zip"
+        },
+        {
+          "version": "1.0.3",
+          "date": "2020-06-17T01:31:13.088Z",
+          "requires": "orca>=8.0.0",
+          "sha512sum": "1a9ff1a3529e49abcc0c762cfbd9db6071fad441099362983cf4d24269d539673e29b00e379b09a5deb6b25191dbb8612851cccc22cdbf54025d52c982169024",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/fetchArtifactsStage/releases/download/v1.0.3/fetchArtifactsStage-v1.0.3.zip"
+        },
+        {
+          "version": "1.0.2",
+          "date": "2020-06-16T18:54:57.034Z",
+          "requires": "orca>=8.0.0",
+          "sha512sum": "294ee8ac037015a827add2d369b9d46d3d21add7b63dd51ec5e5d794e07676376f098d3cd26b72d0fc1b478d488b1e80c9b0a86d1d60312c26834335ff50ac84",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/fetchArtifactsStage/releases/download/v1.0.2/fetchArtifactsStage-v1.0.2.zip"
+        }
+      ]
+    },
+    {
+      "id": "Armory.PreconfigureJob",
+      "description": "A plugin that provides stage as a pre-configured job.",
+      "provider": "https://github.com/spinnaker-plugin-examples",
+      "releases": [
+        {
+          "version": "0.0.2",
+          "date": "2020-06-29T13:52:01.706Z",
+          "requires": "orca>=0.0.0",
+          "sha512sum": "a964e479ad904cf20fbca7948f68f552ee6f5dfe90a31672406f997cca0d1fff709c0eb2fb2685725f24e70f532a2804cbcd5a82791be0a9bca1d9431c288a58",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/preconfiguredJob/releases/download/v0.0.2/preconfiguredJob-v0.0.2.zip"
+        }
+      ]
+    },
+    {
+      "id": "Armory.PreconfiguredJob",
+      "description": "A plugin that provides stage as a pre-configured job.",
+      "provider": "https://github.com/spinnaker-plugin-examples",
+      "releases": [
+        {
+          "version": "0.0.4",
+          "date": "2020-06-29T15:50:29.185Z",
+          "requires": "orca>=0.0.0",
+          "sha512sum": "9b619d47800f8510bd4178d60eaedc0ce5f863bc4153aa8af35af0dcaad3f95074102d9517d02879d6fb5220abd54c1a809ab86ee9bcf20b4c062aa58f4bd36d",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/preconfiguredJob/releases/download/v0.0.4/preconfiguredJob-v0.0.4.zip"
+        },
+        {
+          "version": "0.0.3",
+          "date": "2020-06-29T14:48:49.846Z",
+          "requires": "orca>=0.0.0",
+          "sha512sum": "f7d9ca23da640332ef0ef03cc5af5c22bbe5d6c5d6c1ce800821f2a17157cf443d9124fe98886fb540dca8be7fa73e8b999ae9de15e96599c70b68c184bf4161",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/preconfiguredJob/releases/download/v0.0.3/preconfiguredJob-v0.0.3.zip"
+        }
+      ]
+    },
+    {
+      "id": "Armory.NotificationAgent",
+      "description": "An example Echo notification service",
+      "provider": "https://github.com/danielpeach",
+      "releases": [
+        {
+          "version": "0.0.8",
+          "date": "2020-12-04T17:11:47.206084Z",
+          "requires": "echo>=0.0.0",
+          "sha512sum": "f1ad7ea9b816567a622163b248b6c5e5d07ad7884517e74a6b20dff1da783523dc7137b82ddaa2a74c11ef6c4ba146449f83134413c18b8686bdeb166f4f0a92",
+          "state": "",
+          "url": "https://github.com/spinnaker-plugin-examples/notificationPlugin/releases/download/v0.0.8/notificationPlugin-v0.0.8.zip"
+        },
+        {
+          "version": "0.0.5",
+          "date": "2020-08-13T16:15:50.806Z",
+          "requires": "echo>=0.0.0",
+          "sha512sum": "55e74e07626bacaced0b2a7b248c9a1dcfebb58b2e671ab19a78eff92c8a18f90faf3917107b2dd3d289e1b57110ff5528bb8aaa9dc2b5f86fd5745dbc1dea2c",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/notificationPlugin/releases/download/v0.0.5/notificationPlugin-v0.0.5.zip"
+        },
+        {
+          "version": "0.0.4",
+          "date": "2020-08-12T17:59:19.417Z",
+          "requires": "echo>=0.0.0",
+          "sha512sum": "9867b6e1ef490460c1e2b4d3d61d1a04f4a3240dd3e501fccd8e360bf5322ee30604bc69fe51743713d4d9eb6ce22dd8820337a46e15c3de3822a98336a32afe",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/notificationPlugin/releases/download/v0.0.4/notificationPlugin-v0.0.4.zip"
+        },
+        {
+          "version": "0.0.3",
+          "date": "2020-07-31T15:06:27.091Z",
+          "requires": "echo>=0.0.0",
+          "sha512sum": "16c3395e57d2abaa3ec8af8487bc4f6f80fd848515db0b1dd4ca88fc3dfa3b14259075384bd0c9220747e527836b1efd50d188a1937028cb05755733dd5def2b",
+          "state": "RELEASE",
+          "url": "https://github.com/spinnaker-plugin-examples/notificationPlugin/releases/download/v0.0.3/notificationPlugin-v0.0.3.zip"
+        }
+      ]
+    }
+  ]
