@@ -11,7 +11,15 @@
           "sha512sum": "6dc6d2e99c4969f43dee63993028a59b93782356117c1bf16d54c3471f4b725d45a4a92bfbdc6b467c8459bf887c6e9ae586c00e6ec8e9b1a4e56f4baa8cc2df",
           "state": "",
           "url": "https://github.com/siddhu-opsmx/plugin/releases/download/1.0.0/initialplugin.zip"
-        }
+        },
+        {
+            "version": "1.1.1.1",
+            "date": "2020-11-02T21:12:05.398583Z",
+            "requires": "orca>=0.0.0,deck>=0.0.0",
+            "sha512sum": "78bec31fb7b7afdd5b9764d7930cabf5e1c4bae42b6d4fdc3b074ec509ed73540fb4a3aaf9a8a89448931944eb05432e1d3b0091878d969c5ff66709825e5189",
+            "state": "",
+            "url": "https://github.com/siddhu-opsmx/plugin/releases/download/1.1.1.1/PLUGIN.zip"
+          }
       ]
     },
     {
