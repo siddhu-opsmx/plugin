@@ -12,6 +12,9 @@ import {
   IStageConfigProps,
   IStageTypeConfig,
   NumberInput,
+  TextInput,
+  TextAreaInput,
+  SelectInput,
   Validators,
 } from '@spinnaker/core';
 
@@ -35,23 +38,35 @@ export function RandomWaitStageConfig(props: IStageConfigProps) {
         render={(props) => (
           <Fragment>
             <FormikFormField
-              name="maxWaitTime"
-              label="Max Time To Wait"
-              help={<HelpField id="armory.randomWaitStage.maxWaitTime" />}
-              input={(props) => <NumberInput {...props} />}
+              name="webhookURL"
+              label="Webhook URL"
+              help={<HelpField id="armory.randomWaitStage.webhookURL" />}
+              input={(props) => <TextInput {...props} />}
             />
             <FormikFormField
-              name="maxWaitTime1"
-              label="Custom input 1"
-              help={<HelpField id="armory.randomWaitStage.maxWaitTime" />}
-              input={(props) => <NumberInput {...props} />}
+              name="method"
+              label="Method"
+              help={<HelpField id="armory.randomWaitStage.method" />}
+              input={(props) => <SelectInput options={['get', "put", "post", "delete"] }{...props} />}
             />
             <FormikFormField
-              name="maxWaitTime2"
-              label="Custom input 2"
-              help={<HelpField id="armory.randomWaitStage.maxWaitTime" />}
-              input={(props) => <NumberInput {...props} />}
+              name="failFastHTTPStatuses"
+              label="Fail Fast HTTP Statuses"
+              help={<HelpField id="armory.randomWaitStage.failFastHTTPStatuses" />}
+              input={(props) => <TextInput {...props} />}
             />
+            <FormikFormField
+              name="payload"
+              label="Payload"
+              help={<HelpField id="armory.randomWaitStage.payload" />}
+              input={(props) => <TextAreaInput value="{}" {...props} />}
+            />
+            <FormikFormField
+              name="waitForCompletion"
+              label="Wait for completion"
+              help={<HelpField id="armory.randomWaitStage.waitForCompletion" />}
+              input={(props) => <TextAreaInput value="{}" {...props} />}
+            />            
           </Fragment>
         )}
       />
